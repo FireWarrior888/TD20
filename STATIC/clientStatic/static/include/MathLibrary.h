@@ -2,7 +2,7 @@
 
 namespace MathLibrary
 {
-    class Arithmetic
+    class Vector2
     {
     public:
 

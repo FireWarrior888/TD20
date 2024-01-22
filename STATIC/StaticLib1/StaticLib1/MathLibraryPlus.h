@@ -4,7 +4,7 @@
 
 namespace MathLibraryPlus
 {
-    class ArithmeticPlus : public MathLibrary::Arithmetic
+    class ArithmeticPlus : public MathLibrary::Vector2
     {
     public:
        

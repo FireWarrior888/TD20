@@ -7,11 +7,11 @@ int main()
     double a = 10;
     double b = 5;
 
-    double result1 = MathLibrary::Arithmetic::Add(a, b);
-    double result2 = MathLibrary::Arithmetic::Subtract(a, b);
-    double result3 = MathLibrary::Arithmetic::Multiply(a, b);
-    double result4 = MathLibrary::Arithmetic::Divide(a, b);
-    double result5 = MathLibrary::Arithmetic::GetDistance(a, b);
+    double result1 = MathLibrary::Vector2::Add(a, b);
+    double result2 = MathLibrary::Vector2::Subtract(a, b);
+    double result3 = MathLibrary::Vector2::Multiply(a, b);
+    double result4 = MathLibrary::Vector2::Divide(a, b);
+    double result5 = MathLibrary::Vector2::GetDistance(a, b);
 
     std::cout << result1 << std::endl;
     std::cout << result2 << std::endl;
