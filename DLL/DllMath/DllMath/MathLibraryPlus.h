@@ -8,10 +8,10 @@
 #endif
    
 
-	DLLMATH_API double Normalize(double v);
+	/*DLLMATH_API double Normalize(double v);
 
 	DLLMATH_API double GetNorme(double a);
 
-	DLLMATH_API double GetSignedAngleBetween(double a, double b);
+	DLLMATH_API double GetSignedAngleBetween(double a, double b);*/
 
 

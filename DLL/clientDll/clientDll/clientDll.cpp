@@ -7,11 +7,11 @@ int main()
     double a = 10;
     double b = 5;
 
-    double result1 = Add(a, b);
-    double result2 = Subtract(a, b);
-    double result3 = Multiply(a, b);
-    double result4 = Divide(a, b);
-    double result5 = GetDistance(a, b);
+    double result1 = Vecteur2::Add(a, b);
+    double result2 = Vecteur2::Subtract(a, b);
+    double result3 = Vecteur2::Multiply(a, b);
+    double result4 = Vecteur2::Divide(a, b);
+    double result5 = Vecteur2::GetDistance(a, b);
 
     std::cout << result1 << std::endl;
     std::cout << result2 << std::endl;
