@@ -22,9 +22,9 @@ int main()
 
     double v = 20;
 
-    double result6 = Normalize(v);
-    double result7 = GetNorme(a);
-    double result8 = GetSignedAngleBetween(a, b);
+    double result6 = Vecteur2::Normalize(v);
+    double result7 = Vecteur2::GetNorme(a);
+    double result8 = Vecteur2::GetSignedAngleBetween(a, b);
 
     std::cout << "\n" << result6 << std::endl;
     std::cout << result7 << std::endl;
